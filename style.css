@@ -32,36 +32,70 @@ html {
   justify-content: center;*/
   font-size: 0.6em;
   scroll-snap-align: start;
-  font-family: 'SUIT Heavy', sans-serif;
+  font-family: 'SUIT', sans-serif;
   background-attachment: fixed !important;
 }
 
-.scroll-area >  div > span {
+div#aaa {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+span {
   display: flex;
   align-items: center;
   height: 100%;
   line-height: 100px;
   margin: 10px;
+  font-weight: 900;
 }
 
-.scroll-area > div {
+#ddd {
   height: 60px;
   background-color: white;
   display: flex;
   align-items: center;
   margin: 3%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding: 5px;
-  width: 100%;
   box-shadow: 5px 5px black;
 }
 .scroll-area:nth-of-type(1) {
-  background: url('https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')
-    no-repeat center;
-
+  background: url('./dd.png') no-repeat center;
   display: flex;
   align-items: flex-end;
   background-size: cover;
+}
+
+#sss {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  all: unset;
+  display: flex;
+  font-size: 0.6em;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background: white;
+  border: 1px solid black;
+
+  transition: all 100ms 0ms ease-in-out;
+  padding: 5px;
+  margin: 0px;
+}
+
+button:hover {
+  transition: all 100ms 0ms ease-in-out;
+  background: black;
+  color: white;
+  box-shadow: 1px 1px white;
 }
 
 .scroll-area:nth-of-type(2) {
