@@ -86,16 +86,16 @@ button {
   background: white;
   border: 1px solid black;
 
-  transition: all 100ms 0ms ease-in-out;
+  transition: all 500ms 0ms cubic-bezier(1, -0.01, 1, -0.11);
   padding: 5px;
   margin: 0px;
 }
 
 button:hover {
-  transition: all 100ms 0ms ease-in-out;
+  transition: all 500ms 0ms cubic-bezier(1, -0.01, 1, -0.11);
   background: black;
   color: white;
-  box-shadow: 1px 1px white;
+  box-shadow: 2px 2px white;
 }
 
 .scroll-area:nth-of-type(2) {
